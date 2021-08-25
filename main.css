@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  margin: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  padding-bottom: 10px;
+}
+
+main {
+  margin: 50px 0;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+main p {
+  color: blueviolet;
+  font-size: 2em;
+  flex-grow: 1;
+  min-height: auto;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin-top: auto;
+  padding: 20px 0;
+}
